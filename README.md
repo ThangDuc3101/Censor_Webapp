@@ -9,15 +9,11 @@
 #### With Windows
   - Open terminal in my project after download it
   - Enter this content to terminal: 'venv/Scripts/activate.bat'
-####With Linux
+#### With Linux
   - Open terminal in my project after download it
   - Enter this content to terminal: 'source NAMENEV/bin/activate'
 3. Run main.py file
 ## Demo
-<video width="640" height="360" controls>
-  <source src="https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo1.mp4" type="video/mp4">  
-</video>
-<video width="640" height="360" controls>
-  <source src="https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo2.mp4" type="video/mp4">  
-</video>
+[![Blur Face]()](https://youtu.be/vt5fpE0bzSY](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo1.mp4)
+[![Blur Hands]()](https://youtu.be/vt5fpE0bzSY](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo2.mp4)
 
