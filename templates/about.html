@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censor APP</title>
+    <link rel="stylesheet" href="/static/css/style_about.css">    
+</head>
+<body>
+    <div class="main-page">
+        <div class="pannel">
+            <span class="selection" style="background-color: aqua;"><a class="items" href="/about">About</a></span>
+            <span class="selection"><a class="items" href="/face_video">Video Face Blur</a></span>
+            <span class="selection"><a class="items" href="/hand_video">Video Hand Blur</a></span>
+            <span class="selection"><a class="items" href="/face_webcam">Webcam Face Blur</a></span>
+            <span class="selection"><a class="items" href="/hand_webcam">Webcam Hand Blur</a></span>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>CENSOR APP</h1>
+                <img src="/static/images/icon.jpg" width="75" height="75">
+            </div>
+            <div class="display">
+                <p class="title">
+                    <h1 style="text-align: center;"> Bui Duc Thang</h1>
+                </p>
+                <div class="about">
+                    <p>
+                        <ul>
+                            <li> I'm a student in MTA</li>
+                            <li> My major is Computer Vision & AI</li>
+                            <li> This is a Project that I make by using Flask and AI model to blur a piece of image</li>
+                            <li>This project includes 2 module: Webapp and AI. With Webapp, I using Flask to build back-end Server, HTML/CSS to build a simple front-end. With AI, I using Mediapipe to build detector</li>
+                            <li>After detect hands or faces, I can get coordidate of these objects then I use OpenCV to blur that pieces</li>
+                            <li>You can play with this app to understand censor technological in reality. Although my app can run in Real-time but it is very simple you can download my <a href=""> source</a> in GitHub and develop them more  </li>
+                        </ul>                                          
+                    </p>
+                    <img class="me" src="/static/images/me.jpg" alt="">
+                </div>                
+                
+                <div class="video-demo">   
+                    <h1>Demo</h1>                 
+                    <iframe src="/static/videos/demo1.mp4" width="47%" height="175px"></iframe>         
+                    <iframe src="/static/videos/demo2.mp4" width="47%" height="175px"></iframe>  
+                </div>    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

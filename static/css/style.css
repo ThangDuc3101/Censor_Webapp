@@ -1,0 +1,75 @@
+.main-page{    
+    height: 100vh;
+    display: flex;    
+}
+
+.pannel{
+    background-color: aquamarine;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+    box-shadow: 10px 10px 100px rgb(185,185,185);  
+    border-style: solid;  
+}
+
+.selection{
+    background-color: beige;
+    width: 100%;
+    height: 75px;
+    color: aqua;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    border-style: dashed; 
+    border-radius: 25%;
+}
+
+.content{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.header{
+    background-color: aqua;
+    height: 100px;
+    box-shadow: 10px 10px 100px rgb(185,185,185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+}
+
+img{
+    padding-right: 10px;
+}
+
+.display{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.form-submit{
+    background-color: aqua;
+    border: solid;
+    border-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.upload{
+    background-color: darkgray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20%;
+}

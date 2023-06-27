@@ -1,0 +1,5 @@
+cvzone
+mediapipe
+flask
+flask-wtf
+Flask-Uploads

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censor APP</title>
+    <link rel="stylesheet" href="/static/css/style.css">    
+</head>
+<body>
+    <div class="main-page">
+        <div class="pannel">
+            <span class="selection"><a class="items" href="/about">About</a></span>
+            <span class="selection" style="background-color: aqua;"><a class="items" href="/face_video">Video Face Blur</a></span>
+            <span class="selection"><a class="items" href="/hand_video">Video Hand Blur</a></span>
+            <span class="selection"><a class="items" href="/face_webcam">Webcam Face Blur</a></span>
+            <span class="selection"><a class="items" href="/hand_webcam">Webcam Hand Blur</a></span>
+        </div>
+        <div class="content">
+            <div class="header">
+                <h1>CENSOR APP</h1>
+                <img src="/static/images/icon.jpg" width="75" height="75">
+            </div>
+            <div class="display">
+                <form class="form-submit" method="post" enctype="multipart/form-data">
+                    {{ form.hidden_tag() }}
+                    {{ form.file() }}
+                    {{ form.submit() }}
+                </form>
+                <img src="{{ url_for('face_blur')}}" class="upload" width="960" height="480">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
