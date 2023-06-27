@@ -14,6 +14,6 @@
   - Enter this content to terminal: 'source NAMENEV/bin/activate'
 3. Run main.py file
 ## Demo
-[![Blur Face]()](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo1.mp4)
-[![Blur Hands]()](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo2.mp4)
+[![Blur Face](https://github.com/ThangDuc3101/Censor_Webapp/tree/master/static/images/face.jpg)](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo1.mp4)
+[![Blur Hands](https://github.com/ThangDuc3101/Censor_Webapp/tree/master/static/images/hands.jpg)](https://github.com/ThangDuc3101/Censor_Webapp/blob/master/static/videos/demo2.mp4)
 
