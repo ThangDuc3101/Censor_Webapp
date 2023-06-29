@@ -11,7 +11,9 @@
 > With Linux
 - Open the terminal in my project after downloading it
 - Enter this content to terminal: 'source NAMENEV/bin/activate.bat'
-3. Run the main.py file
+3. After activating the virtual environment, you should install all dependencies. I used a text file that names "requirements.txt", it contains all library that I used for this project. Enter the terminal: "pip install -r requirement.txt"
+4. And now, you are ready to play with this app. Run the main.py file to start.
+> Note: In this project, I used Python 3.11.4. If you can't install some libraries you can download this Python version and try again. 
 ## Demo
 ### Face Blur
 ![Face Blur](/static/images/face.jpg)
