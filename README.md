@@ -6,11 +6,13 @@
 1. Clone this repos
 - git clone https://github.com/ThangDuc3101/Censor_Webapp.git
 2. Activate Virtual Enviroment
-#### With Windows
-  - Open terminal in my project after download it
-  - Enter this content to terminal: 'venv/Scripts/activate.bat'
-#### With Linux
+> With Windows
+- Open terminal in my project after download it
+- Then enter this content to terminal: 'venv/Scripts/activate.bat'
+> With Linux
   - Open terminal in my project after download it
   - Enter this content to terminal: 'source NAMENEV/bin/activate'
 3. Run main.py file
-
+## Demo
+![Face Blur](/static/images/face.jpg)
+![Hands_Blur](/static/images/hands.jpg)
