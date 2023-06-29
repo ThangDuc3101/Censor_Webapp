@@ -1,18 +1,22 @@
 # Censor_Webapp
----
 ## Description
-#### The CENSOR application is a web-based implementation of a video censoring tool. It utilizes the main tools such as Mediapipe and Flask. The application functions by taking input in the form of a video (either a .mp4 file or real-time frames from a webcam), detecting faces or hands, and subsequently blurring or censoring them.
+> The CENSOR application is a web-based implementation of a video censoring tool. It utilizes the main tools such as Mediapipe and Flask. The application functions by taking input as a video (either a .mp4 file or real-time frames from a webcam), detecting faces or hands, and subsequently blurring or censoring them.
 ## Installation
 1. Clone this repos
-- git clone https://github.com/ThangDuc3101/Censor_Webapp.git
-2. Activate Virtual Enviroment
+> git clone https://github.com/ThangDuc3101/Censor_Webapp.git
+2. Activate Virtual Environment
 > With Windows
-- Open terminal in my project after download it
-- Then enter this content to terminal: 'venv/Scripts/activate.bat'
+- Open the terminal in my project after downloading it
+- Then enter this content to the terminal: 'venv/Scripts/activate.bat'
 > With Linux
-  - Open terminal in my project after download it
-  - Enter this content to terminal: 'source NAMENEV/bin/activate'
-3. Run main.py file
+- Open the terminal in my project after downloading it
+- Enter this content to terminal: 'source NAMENEV/bin/activate.bat'
+3. Run the main.py file
 ## Demo
+### Face Blur
 ![Face Blur](/static/images/face.jpg)
+### Hands Blur
 ![Hands_Blur](/static/images/hands.jpg)
+### Video 
+https://github.com/ThangDuc3101/Censor_Webapp/assets/88826829/aa28e806-e24e-405d-898a-002f2312ce5d
+
